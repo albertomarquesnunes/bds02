@@ -72,7 +72,7 @@ public class Event {
 		return city;
 	}
 
-	public void setCity(City city) {
-		this.city = city;
+	public void setCity(Long cityId) {
+		this.city.setId(cityId);
 	}
 }
